@@ -2,9 +2,9 @@ let length;
 let width;
 
 function calculateArea() {
-    length = parseFLoat(document.getElementById('length').value);
+    length = parseFloat(document.getElementById('length').value);
     width = parseFloat(document.getElementById('width').value);
 
-    let area = length * width
+    let area = length * width;
      document.getElementById('result').innerText = `The area of the rectangle is: ${area}`;
 }
